@@ -1,9 +1,15 @@
 <script>
+  import { onMount } from "svelte";
+
   let waving = true;
 
-  setTimeout(() => {
-    waving = false;
-  }, 1800);
+  onMount(() => {
+    const timeout = setTimeout(() => {
+      waving = false;
+    }, 1800);
+
+    return () => clearTimeout(timeout);
+  });
 
   function reWave() {
     if (!waving) {
@@ -18,7 +24,7 @@
 <!-- TODO: add a contact me link which navigates to the contact section -->
 
 <section class="my-4">
-  <h1 class="heading-l">
+  <h1 class="heading-l mb-4">
     Hi there
     <span
       class:wave={waving}
