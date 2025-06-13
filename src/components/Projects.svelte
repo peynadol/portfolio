@@ -1,24 +1,31 @@
-<section class="my-16 text-left">
-  <h2 class="heading-m mb-8 underline underline-accent">Projects</h2>
+<script>
+  import ProjectCard from "./ProjectCard.svelte";
+</script>
 
-  <div class="space-y-12">
-    <div class="border rounded-xl p-6 bg-muted/5 hover:bg-muted/10 transition">
-      <h3 class="text-xl font-semibold mb-2">Invoice Tracker</h3>
-      <p class="text-muted mb-4">
-        An invoicing app built with Next.js, Tailwind, and local JSON storage
-        (migrating to PostgreSQL). Features dynamic forms, local persistence,
-        and custom validation with Zod.
-      </p>
-      <div class="flex gap-4 text-sm">
-        <a
-          href="https://invoice-app.example.com"
-          class="text-accent hover:underline">Live Site</a
-        >
-        <a
-          href="https://github.com/liam/invoice-app"
-          class="text-accent hover:underline">GitHub</a
-        >
-      </div>
-    </div>
+<section class="my-16 text-left" id="projects">
+  <h2 class="heading-m mb-8">Projects</h2>
+
+  <div class="space-y-10">
+    <ProjectCard
+      title="HMCTS Caseworker Task App"
+      description="A task manager application for a developer challenge. Built with React, includes task flow, filters, and UI state."
+      tech={["React", "JavaScript", "Tailwind"]}
+      live="https://hmcts-caseworker-task-app.onrender.com/"
+      github="https://github.com/peynadol/hmcts-caseworker-task-app"
+    />
+    <ProjectCard
+      title="Planetary Facts"
+      description="A responsive, modern web app built with Next.js 15, React 19, and Tailwind CSS 4, showcasing facts and visuals about the planets in our solar system."
+      tech={["Next.js", "JavaScript", "Tailwind"]}
+      live="https://planet-facts-gamma.vercel.app/planets/mercury"
+      github="https://github.com/peynadol/planet-facts"
+    />
+    <ProjectCard
+      title="Multi-Step Form"
+      description="A multi-step form built with React Hook Form and Zod for validation. Features include dynamic step navigation, form state management, and responsive design."
+      tech={["React", "TypeScript", "React Hook Form", "Zod"]}
+      live="https://multi-step-form-5tct-1f8m7b2pd-liams-projects-d672842b.vercel.app/"
+      github="https://github.com/peynadol/multi-step-form/tree/main"
+    />
   </div>
 </section>
