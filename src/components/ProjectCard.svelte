@@ -4,9 +4,18 @@
   export let tech: string[] = [];
   export let live: string;
   export let github: string;
+  export let image: string | undefined;
 </script>
 
-<div class="border rounded-xl p-6 bg-muted/5 hover:bg-muted/10 transition">
+<div class=" rounded-xl p-6 hover:bg-muted/10 transition">
+  {#if image}
+    <img
+      src={image}
+      alt="{title} screenshot"
+      class="rounded-md mb-4 border border-muted shadow-sm"
+    />
+  {/if}
+
   <h3 class="text-xl font-semibold mb-2">{title}</h3>
   <p class="text-muted mb-4">{description}</p>
 

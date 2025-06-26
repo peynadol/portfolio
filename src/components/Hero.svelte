@@ -23,7 +23,7 @@
 
 <!-- TODO: add a contact me link which navigates to the contact section -->
 
-<section class="my-4">
+<section class="my-4 mt-16">
   <h1 class="heading-l mb-4">
     Hi there
     <span

@@ -7,25 +7,47 @@
 
   <div class="space-y-10">
     <ProjectCard
-      title="HMCTS Caseworker Task App"
-      description="A task manager application for a developer challenge. Built with React, includes task flow, filters, and UI state."
-      tech={["React", "JavaScript", "Tailwind"]}
-      live="https://hmcts-caseworker-task-app.onrender.com/"
-      github="https://github.com/peynadol/hmcts-caseworker-task-app"
+      title="Product Feedback App"
+      description="A responsive web app for submitting and discussing product feedback. Features voting, filtering, nested comments, and a detailed suggestion board."
+      tech={["Next.js", "TypeScript", "Tailwind", "Zustand"]}
+      live="https://product-feedback-app-gray.vercel.app/"
+      github="https://github.com/peynadol/product-feedback-app"
+      image="/images/product-feedback-preview.jpeg"
     />
+    <ProjectCard
+      title="GitHub Issue Viewer"
+      description="A lightweight web app to browse GitHub issues using the GitHub API. Implements data caching and pagination with React Query for a smooth experience."
+      tech={["React", "TypeScript", "React Query", "Tailwind", "GitHub API"]}
+      live="https://github-issue-viewer-ashy.vercel.app/"
+      github="https://github.com/peynadol/github-issue-viewer"
+      image="/images/github-issue-viewer-preview.png"
+    />
+
+    <ProjectCard
+      title="Multi-Step Form"
+      description="A polished multi-step form with validation using Zod and React Hook Form. Supports step navigation, error handling, and a toast notification on submission."
+      tech={["React", "TypeScript", "React Hook Form", "Zod", "Tailwind"]}
+      live="https://multi-step-form-5tct-1f8m7b2pd-liams-projects-d672842b.vercel.app/"
+      github="https://github.com/peynadol/multi-step-form"
+      image="/images/multi-step-form-preview.jpeg"
+    />
+
     <ProjectCard
       title="Planetary Facts"
       description="A responsive, modern web app built with Next.js 15, React 19, and Tailwind CSS 4, showcasing facts and visuals about the planets in our solar system."
       tech={["Next.js", "JavaScript", "Tailwind"]}
       live="https://planet-facts-gamma.vercel.app/planets/mercury"
       github="https://github.com/peynadol/planet-facts"
+      image="/images/planetary-facts-preview.jpeg"
     />
+
     <ProjectCard
-      title="Multi-Step Form"
-      description="A multi-step form built with React Hook Form and Zod for validation. Features include dynamic step navigation, form state management, and responsive design."
-      tech={["React", "TypeScript", "React Hook Form", "Zod"]}
-      live="https://multi-step-form-5tct-1f8m7b2pd-liams-projects-d672842b.vercel.app/"
-      github="https://github.com/peynadol/multi-step-form/tree/main"
+      title="MyTeam Landing Page"
+      description="A responsive marketing site built with Svelte and Tailwind CSS. Designed to showcase clean layout structure, mobile-first responsiveness, and component reuse."
+      tech={["Svelte", "Tailwind", "TypeScript"]}
+      live="https://myteam-dusky.vercel.app/"
+      github="https://github.com/peynadol/myteam"
+      image="/images/myteam-landing-page-preview.jpeg"
     />
   </div>
 </section>
