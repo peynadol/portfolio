@@ -1,8 +1,10 @@
 <script>
   import ProjectCard from "./ProjectCard.svelte";
+  import Separator from "./Separator.svelte";
 </script>
 
 <section class="my-16 text-left" id="projects">
+  <Separator />
   <h2 class="heading-m mb-8">Projects</h2>
 
   <div class="space-y-10">

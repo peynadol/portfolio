@@ -12,36 +12,38 @@
     <div>
       <h3 class="font-bold text-lg mb-1">Core Frontend</h3>
       <ul class="list-disc list-inside text-base">
-        <li>HTML, CSS, JavaScript, TypeScript</li>
-        <li>React, Next.js, Tailwind CSS</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 class="font-bold text-lg mb-1">Form Handling & Validation</h3>
-      <ul class="list-disc list-inside text-base">
-        <li>React Hook Form</li>
-        <li>Zod</li>
+        <li>Semantic HTML, modern CSS, JavaScript (ES6+)</li>
+        <li>React & Next.js (app and pages routers)</li>
+        <li>TypeScript (basic to intermediate use)</li>
+        <li>Tailwind CSS</li>
+        <li>RHF and Zod for form handling and validation</li>
       </ul>
     </div>
 
     <div>
       <h3 class="font-bold text-lg mb-1">Backend & Full Stack</h3>
       <ul class="list-disc list-inside text-base">
-        <li>Node.js, Express, PostgreSQL</li>
-        <li>
-          Comfortable building APIs, connecting to databases, and deploying
-          full-stack apps
-        </li>
+        <li>Node.js, Express, PostgreSQL (basic to intermediate)</li>
+        <li>Experience building APIs and connecting to databases</li>
       </ul>
     </div>
 
     <div>
       <h3 class="font-bold text-lg mb-1">Testing & Tooling</h3>
       <ul class="list-disc list-inside text-base">
-        <li>Git & GitHub for version control</li>
+        <li>Version control with Git & GitHub</li>
         <li>Deployments with Vercel and Render</li>
-        <li>Basic experience with Vitest, Jest, and Playwright</li>
+        <li>Working knowledge of Vitest, Jest, and Playwright</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-bold text-lg mb-1">Exploring</h3>
+      <ul class="list-disc list-inside text-base">
+        <li>PHP & Laravel</li>
+        <li>Accessibility best practices</li>
+        <li>TanStack (Query, Router, Table)</li>
+        <li>Frontend performance optimization</li>
       </ul>
     </div>
   </div>

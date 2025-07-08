@@ -36,10 +36,14 @@
     </span>, I'm <span class="underline underline-accent">Liam</span>.
   </h1>
   <p class="body-l">
-    Based in the UK. I'm an early-career frontend developer who enjoys building
-    clean UIs and solving logic problems. I'm currently exploring Next.js and
-    looking to join a team where I can grow through collaboration and hands-on
-    work.
+    Self-taught, UK based, 3 years of learning and building. Looking for my
+    first development role while exploring full-stack.
+    <br />
+    <button
+      class=" mt-2 text-accent hover:underline hover:underline-accent hover:cursor-pointer transition-all duration-200"
+    >
+      More about me ↓
+    </button>
   </p>
 </section>
 
