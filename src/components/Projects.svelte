@@ -12,7 +12,7 @@
       title="Personal Finance Dashboard"
       description="A personal finance tracker built with Next.js and Supabase. Features dynamic budgeting, savings goals (“pots”), and transaction history. Built to deepen my understanding of full-stack app structure, state management with TanStack Query, and TypeScript integration."
       tech={["Next.js", "Typescript", "TanStack Query", "Supabase"]}
-      live="https://finance-h78h-2a4yj0doq-liams-projects-d672842b.vercel.app/"
+      live="https://finance-h78h.vercel.app/"
       github="https://github.com/peynadol/finance"
       image="/images/finance-app-preview.png"
     />
@@ -38,7 +38,7 @@
       title="Multi-Step Form"
       description="A polished multi-step form with validation using Zod and React Hook Form. Supports step navigation, error handling, and a toast notification on submission."
       tech={["React", "TypeScript", "React Hook Form", "Zod", "Tailwind"]}
-      live="https://multi-step-form-5tct-1f8m7b2pd-liams-projects-d672842b.vercel.app/"
+      live="https://multi-step-form-tau-ashen.vercel.app/"
       github="https://github.com/peynadol/multi-step-form"
       image="/images/multi-step-form-preview.jpeg"
     />
