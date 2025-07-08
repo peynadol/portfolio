@@ -40,6 +40,10 @@
     first development role while exploring full-stack.
     <br />
     <button
+      on:click={() =>
+        document
+          .getElementById("about")
+          ?.scrollIntoView({ behavior: "smooth" })}
       class=" mt-2 text-accent hover:underline hover:underline-accent hover:cursor-pointer transition-all duration-200"
     >
       More about me ↓

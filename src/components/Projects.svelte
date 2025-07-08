@@ -9,6 +9,15 @@
 
   <div class="space-y-10">
     <ProjectCard
+      title="Personal Finance Dashboard"
+      description="A personal finance tracker built with Next.js and Supabase. Features dynamic budgeting, savings goals (“pots”), and transaction history. Built to deepen my understanding of full-stack app structure, state management with TanStack Query, and TypeScript integration."
+      tech={["Next.js", "Typescript", "TanStack Query", "Supabase"]}
+      live="https://finance-h78h-2a4yj0doq-liams-projects-d672842b.vercel.app/"
+      github="https://github.com/peynadol/finance"
+      image="/images/finance-app-preview.png"
+    />
+
+    <ProjectCard
       title="Product Feedback App"
       description="A responsive web app for submitting and discussing product feedback. Features voting, filtering, nested comments, and a detailed suggestion board."
       tech={["Next.js", "TypeScript", "Tailwind", "Zustand"]}

@@ -1,7 +1,7 @@
 <section id="about" class="max-w-4xl mx-auto px-6">
   <h2 class="heading-l text-accent mb-8">About Me</h2>
 
-  <div class="space-y-6 body-l text-gray-300">
+  <div class="space-y-6 body-l text-gray-300 mb-12">
     <p>
       I'm a self-taught developer making the jump into tech after 3 years of
       dedicated learning. My path started with a simple console.log("Hello
